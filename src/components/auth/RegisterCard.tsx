@@ -1,6 +1,6 @@
 import {useState} from "react";
 import "./register-card.css";
-import LabelledInput from "../../ui/LabelledInput";
+import LabelledInput from "../../ui/input/LabelledInput";
 
 const RegisterCard = () => {
     const [username, setUsername] = useState("");
